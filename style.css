@@ -1,4 +1,4 @@
-@font-face {
+tdont-face {
     font-family: "Young Serif";
     src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
@@ -57,7 +57,7 @@ table{
 }
 
 
-td{
+.table-row{
     border-bottom: 1px solid;
     padding: .5rem 1.5rem;
 }
@@ -142,4 +142,5 @@ h3, h4, h5{
     }     
 
 }
+
 

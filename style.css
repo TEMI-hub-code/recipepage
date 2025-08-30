@@ -57,7 +57,7 @@ table{
 }
 
 
-tr{
+td{
     border-bottom: 1px solid;
     padding: .5rem 1.5rem;
 }
@@ -142,3 +142,4 @@ h3, h4, h5{
     }     
 
 }
+

@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Young Serif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* General styling     */
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.contents{
+    display: grid;
+    place-items: center;
+    background-color: white;
+}
+
+header img{
+    max-width: 100%;
+}
+
+main{
+    padding: 2rem;
+}
+
+main ul, ol{
+    padding: 0 1rem;
+}
+
+h1, h2, h3, h4, h5{
+    margin: .5rem 0;
+    margin-bottom: 1rem;
+}
+
+h2, h3, h4, h5{
+    color: hsl(14, 45%, 36%);
+    font-size: 1.5em;
+}
+
+hr{
+    margin: 1.5rem 0;
+}
+
+table{
+    display: grid;
+    justify-content: center;
+    margin-top: .5rem;
+}
+
+td{
+    border-bottom: 1px solid;
+    padding: .5rem 1.5rem;
+}
+
+[data-cell="amount"]{
+    color: hsl(14, 45%, 36%);
+    font-weight: bolder;
+}
+
+/* Typography and styling     */
+main li::marker{
+   color: hsl(14, 45%, 36%);;
+}
+
+span{
+    font-weight: bold;
+}
+
+body{
+    font-family: outfit;
+    line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: young sefif;
+    font-weight: bolder;
+}
+
+h2{
+    font-family: outfit;
+    font-size: 1.5rem
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h3, h4, h5{
+    font-size: 2rem;
+}
+
+/* layout     */
+.prep-time{
+    background-color: hsl(30, 54%, 90%);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 2rem 0;
+}
+
+@media(max-width:550px){
+    h1{
+        font-size: 2rem;
+        line-height: 1em;
+    }     
+}
+@media(min-width:550px){
+    .wrapper{
+        display: grid;
+        place-items: center;
+        height: 100%;
+        padding: 2rem;
+    }
+    .contents{
+        max-width: 50%; 
+        border-radius: 1rem;
+    }
+
+    header{
+        padding: 1rem;
+        padding-bottom: 0;
+    }
+
+    header img{
+        border-radius: 1rem;
+    }
+}
+
+@media(max-width:950px){
+    h1{
+        font-size: 2rem;
+        line-height: 1em;
+    }     
+}
